@@ -19,12 +19,14 @@ class CompStrings():
         tm1 = len(self.str1)
         tm2 = len(self.str2)
         print(f"o tamanho da 1° string é: {tm1}\ne o tamamnho da 2° string é: {tm2}")
-        
+        return tm1,tm2
+    
     def ConteudoString(self):
         cont1 = self.str1
         cont2 = self.str2
         print(f"as string dizem {cont1} e {cont2}")
-
+        return cont1,cont2
+    
 comp = CompStrings("AA","AA")
 comp.VerSeSaoIguais()
 comp.VerSeMesmoTamanho()
