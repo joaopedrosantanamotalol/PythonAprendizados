@@ -23,9 +23,9 @@ class CompStrings():
     def ConteudoString(self):
         cont1 = self.str1
         cont2 = self.str2
-        print(f"as string dizem {cont1} {cont2}")
+        print(f"as string dizem {cont1} e {cont2}")
 
-comp = CompStrings("AA","OLOKOOO")
+comp = CompStrings("AA","AA")
 comp.VerSeSaoIguais()
 comp.VerSeMesmoTamanho()
 comp.ConteudoString()
