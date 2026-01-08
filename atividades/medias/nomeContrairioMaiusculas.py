@@ -11,6 +11,7 @@ class MaiusculaInversa():
         print("Pode digitar em letras maiusculas e minusculas")
         self.f = input("Digite sua frase: ")
 
+
     def processar(self):
        
       """ Versão rápida utilizando Slice
