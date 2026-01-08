@@ -15,9 +15,9 @@ class NumeroFatorial():
        fatorial = 1
 
        """ 
-       o (1, self.n + 1) diz que vai do numero 1 até o indice em escala 
+       o (1, self.n + 1) diz que vai do numero 1 até o indice final em escala 
        numerica de self.n utilizando o +1 para ir de 1 até o valor final de self.n
-       assim não conta de 0 -> 5 e sim de 1 -> 5
+       assim não conta de 0 -> 4 e sim de 1 -> 5
        """
        
        for numero in range(1, self.n + 1): 
