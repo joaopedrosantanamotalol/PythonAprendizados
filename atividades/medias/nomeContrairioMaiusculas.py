@@ -12,11 +12,20 @@ class MaiusculaInversa():
         self.f = input("Digite sua frase: ")
 
     def processar(self):
-        fraseinversa = ""
-        for i in self.f:
-            fraseinversa = i.upper() + fraseinversa
+       
+      """ Versão rápida utilizando Slice
+      fraseInversa = self.f[::-1] # inverte a ordem da String
+      print(fraseInversa)
+
+      """
+
+    """ Versão diática utilizando soma do indice na variavel
+    fraseinversa = ""
+    for i in self.f:
+        fraseinversa = i.upper() + fraseinversa
             
         print(fraseinversa)
-    
+    """
+        
 MI = MaiusculaInversa()
 MI.processar()
