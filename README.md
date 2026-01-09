@@ -39,8 +39,8 @@ PythonAprendizados/
 │   ├── medias/
 │   └── dificeis/
 │
-├── exemplos/
+├── conceitos/
 │
-├── testes/
+│
 │
 └── README.md
